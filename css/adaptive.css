@@ -1,0 +1,267 @@
+﻿/*自适应样式*/
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1200px;
+	}
+	.banner .carousel-inner>.item>a>img,
+	.banner .carousel-inner>.item>img {
+		width: 100%;
+		height: 400px;
+	}
+}
+
+@media (min-width:992px)and (max-width:1199px) {
+	.container {
+		width: 94%;
+		margin: 0 auto;
+	}
+	.entry .entry_icon {
+		width: 30px;
+		height: 30px;
+	}
+	.entry .entry_label {
+		font-size: 12px;
+	}
+	.footer-inner .footer-logo {
+		width: 20%;
+	}
+	.footer-inner .footer-link,
+	.footer-inner .footer-multimedia {
+		width: 40%;
+	}
+	.banner .carousel-inner>.item>a>img,
+	.banner .carousel-inner>.item>img {
+		width: 100%;
+		height: 300px;
+	}
+}
+
+@media (min-width:768px)and (max-width:991px) {
+	.noto {
+		display: none;
+	}
+	.container {
+		width: 94%;
+		margin: 0 auto;
+	}
+	.head .col_33 {
+		width: 50%;
+	}
+	.head .logo {
+		padding: 27px 15px;
+	}
+	.head .motto {
+		padding: 29.5px 15px;
+	}
+	.col_small,
+	.col_large,
+	.notice .col_large,
+	.news .col_small,
+	.news .col_large,
+	.notice .col_small {
+		width: 50%;
+	}
+	.navmenu a {
+		font-size: 14px;
+	}
+	.nav.nav-arc>.nav_item>a {
+		font-size: 16px;
+		line-height: 18px;
+		padding: 10px 10px;
+		margin-right: 10px;
+	}
+	.newslist .newslist-cont {
+		font-size: 14px;
+	}
+	.entry .entry_icon {
+		width: 30px;
+		height: 30px;
+	}
+	.entry .entry_label {
+		font-size: 12px;
+	}
+	.footer-inner .footer-logo {
+		display: none;
+	}
+	.footer-inner .footer-link,
+	.footer-inner .footer-multimedia {
+		width: 50%;
+	}
+	.sidebar {
+		width: 30%;
+	}
+	.main {
+		width: 70%;
+	}
+	.banner .carousel-inner>.item>a>img,
+	.banner .carousel-inner>.item>img {
+		width: 100%;
+		height: 250px;
+	}
+}
+
+@media (min-width:768px) {}
+
+@media (max-width:767px) {
+	.container {
+		width: 94%;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.subnav,
+	.motto,
+	.noto,
+	.navigation {
+		display: none;
+	}
+	.topbar .sidebar-toggler {
+		display: block;
+		padding: 20px;
+	}
+	.mobiletop .subnav-search {
+		display: block;
+	}
+	.head .logo {
+		display: block;
+		text-align: center;
+	}
+	.footer-inner {
+		padding: 0;
+	}
+	.footer-inner .footer-link {
+		float: none;
+		width: 360px;
+		margin: auto;
+		padding: 20px 0;
+	}
+	.footer-inner .footer-logo {
+		float: none;
+		width: 100%;
+		padding: 10px 0;
+	}
+	.footer-inner .footer-multimedia {
+		float: none;
+		text-align: center;
+		width: 300px;
+		margin: auto;
+		padding: 20px 0;
+	}
+	.col_33,
+	.col_small,
+	.col_50,
+	.col_large {
+		width: 100%;
+	}
+	.notice .col_large,
+	.notice .col_small {
+		width: 100%;
+	}
+	.banner {
+		margin-top: 0;
+	}
+	.copyright-inner {
+		padding: 5px;
+	}
+	.copyright-inner .copyright_item {
+		font-size: 12px;
+		line-height: 16px;
+		display: block;
+	}
+	.news {
+		margin-top: 10px;
+	}
+	.news .col_small .section_wrap {
+		padding: 0;
+	}
+	.news .col_large .section_wrap {
+		padding: 0;
+	}
+	.photonews {
+		margin-bottom: 10px;
+	}
+	.news,
+	.notice,
+	.guild {
+		margin-top: 20px;
+	}
+	.notice .col_small .section_wrap {
+		padding: 0;
+	}
+	.notice .col_large .section_wrap {
+		padding: 0;
+	}
+	.nav.nav-arc>.nav_item>a {
+		padding: 10px 10px;
+		margin-right: 0;
+		font-size: 16px;
+		line-height: 18px;
+	}
+	.newslist .newslist-cont {
+		font-size: 14px;
+	}
+	.nav_more {
+		margin-right: 0;
+	}
+	.entry {
+		margin-top: 30px;
+	}
+	.section_wrap,
+	.column_wrap {
+		padding: 0;
+	}
+	.guild-col {
+		padding: 0 5px;
+	}
+	.footer-inner .footer-multimedia>ul {
+		float: left;
+	}
+	.footer-inner .footer-multimedia .dropdown .dropdown-menu {
+		/* right: -100%;
+		top: -22%; */
+	}
+	.sidebar {
+		display: none;
+	}
+	.main {
+		width: 100%;
+	}
+	.share {
+		line-height: 25px;
+		margin: 0;
+	}
+	.weixin {
+		padding-top: 21px;
+	}
+	.main,
+	.article {
+		padding: 0;
+	}
+	.banner .carousel-inner>.item>a>img,
+	.banner .carousel-inner>.item>img {
+		width: 100%;
+		height: 150px;
+	}
+}
+
+@media (min-width:320px)and (max-width:380px) {
+	.footer-link .career {
+		float: initial;
+		display: block;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.footer-link .abcinfo {
+		float: initial;
+		display: block;
+		text-align: center;
+	}
+	.footer-inner .footer-link {
+		width: 320px;
+	}
+	.banner .carousel-inner>.item>a>img,
+	.banner .carousel-inner>.item>img {
+		width: 100%;
+		height: 100px;
+	}
+}

@@ -1,0 +1,12 @@
+﻿/*调节兼容性*/
+
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: left;
+}
+
+.clearfix {
+    background-color: #f1ee18; /*所有识别*/
+    background-color: #00deff\9; /*IE6、7、8识别*/
+    +background-color:#a200ff; /*IE6、7识别*/
+    _background-color: #1e0bd1; /*IE6识别*/
+}
