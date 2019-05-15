@@ -141,6 +141,7 @@
 		padding: 10px 0;
 	}
 	.footer-inner .footer-multimedia {
+		font-size: 0;
 		float: none;
 		text-align: center;
 		width: 300px;
@@ -231,7 +232,7 @@
 		margin: 0;
 	}
 	.weixin {
-		padding-top: 21px;
+		padding-top: 15px;
 	}
 	.main,
 	.article {
